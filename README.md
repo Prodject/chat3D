@@ -1,19 +1,15 @@
 
-## Assignment 2: Chat with 3D environment##
+## Chat with 3D environment
 
 
-Emails
-	pol.valls02@estudiant.upf.edu
-	lie.jin01@estudiant.upf.edu
 
-*INFO*
+###INFO
 
-The chat has been created from the Assignment 1's chat application, threrefore there are some 
-implementations that are the same as the model.
+Chat with 3D environment made for UPF's subject *Entorns de comicació virtual (ECV)* with Client & Server side to learn JavaScript/NodeJS and Three.js.
 
-*NEW FEATURES*
+### *NEW FEATURES*
 
-	-A 3D environment has been added to the chat with the following features:
+	-A 3D environment has been added to the previous chat with the following features:
 		-Every User is represented as a cube which is marked with a red Cone
 		-Users can move within the plane with arrow keys or by doing left-clicks with the mouse
 		-Users can change the Cube color or the User's name by selecting the edition icon (in the top-left side)
@@ -23,17 +19,29 @@ implementations that are the same as the model.
 		-Random positions and color for every new user
 		-Broadcast of chat messages depending on the distance
 	-Skybox
-	-Responsive website
+	-Responsive website behaviour
 	-Simple Orbital Camera (drag with right-click) + Zoom (scroll or pinch)
 
-*CONNECTING TO THE CHAT*
+### RUN chat on LOCALHOST
 
-In order to connect to the chat we need to start the server by doing <node ChatServer.js> and open in the browser the following 
-url: http://ecv-etic.upf.edu:9026/index.html
+On the terminal..
+- Install npm and nodeJS.
+- Git clone this repository
+'git clone https://github.com/pvalls/chat3D'
+- Change directory to source
+'cd chat3D/source'
+- Install dependencies using provided package.json
+'npm install'
+- Start server
+'node ChatServer.js'
+- Go to browser and open the url "http://localhost:9026/index.html".
 
-*ISSUES*
 
-*THINGS PENDING*
+### Authors
+	pol.valls02@estudiant.upf.edu
+	lie.jin01@estudiant.upf.edu
+
+### Pending to implement
 	-2D Label Text for the users' name and messages
 	-changing between a fixed camera to first person camera
 	-clicking other users cube
