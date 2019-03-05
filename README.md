@@ -7,7 +7,7 @@ Web based chat with a 3D environment for user interaction made for UPF's subject
 ### Features
 
 - Login Page to choose username
-- A 3D environment has been added to the previous chat with the following features:
+- A 3D environment has been added to the previous chat assignment with the following features:
 	- Every User is represented as a cube which is marked with a red Cone
 	- Users can move within the plane with arrow keys or by doing left-clicks with the mouse
 	- Users can change the Cube color or the User's name by selecting the edition icon (in the top-left side)
